@@ -1,0 +1,21 @@
+{
+  "name": "06-tcp-server",
+  "version": "1.0.0",
+  "description": "seattle-javascript-401d24, 06-tcp-server",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "lint": "eslint **/*.js",
+    "start": "node index.js"
+  },
+  "author": "Ovidiu Parasca",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "jest": "^22.4.3"
+  }
+}
